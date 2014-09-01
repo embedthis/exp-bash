@@ -1,0 +1,10 @@
+{
+    "name": "exp-bash",
+    "description": "Bash Plugin for Expansive",
+    "version": "0.1.0",
+    "keywords": [
+        "expansive-plugin",
+        "bash"
+    ],
+    "licenses": "GPL"
+}
