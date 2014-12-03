@@ -2,8 +2,8 @@ Expansive.load({
     expansive: {
         transforms: {
             name:   'shell',
-            from:   [ 'bash', 'sh' ],
-            to:     '*',
+            input:  [ 'bash', 'sh' ],
+            output: '*',
             script: `
                 function transform(contents, meta, service)
                     run('bash', contents)

@@ -7,7 +7,7 @@ Provides the 'shell' service.
 
 ### To install:
 
-exp install exp-bash
+exp install bash
 
 ### Get Pak from
 
