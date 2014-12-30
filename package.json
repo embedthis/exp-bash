@@ -2,9 +2,11 @@
     "name": "exp-bash",
     "description": "Bash Plugin for Expansive",
     "version": "0.1.0",
+    "pak": ">=0.10",
     "keywords": [
         "expansive-plugin",
         "bash"
     ],
-    "licenses": "GPL"
+    "licenses": "GPL",
+    "install": false
 }
