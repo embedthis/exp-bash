@@ -5,7 +5,7 @@ Expansive.load({
         output: '*',
         script: `
             function transform(contents, meta, service)
-                run('bash', contents)
+                run(file.extension, contents)
         `
     }
 })

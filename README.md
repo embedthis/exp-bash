@@ -1,14 +1,29 @@
-exp-bash
+exp-shell
 ===
 
-Expansive plugin for the bash and shell scripts.
+Expansive plugin for shell scripts.
 
-Provides the 'shell' service.
+Provides the 'shell' service to run shell scripts and capture the output 
+into HTML pages.
 
 ### To install:
 
-exp install bash
+    pak install shell
+
+### To configure in expansive.json:
+
+* shell.input -- Array of shell file extensions to service.
+
+```
+{
+    services: {
+        shell: {
+            input: [ 'bash', 'sh' ],
+        }
+    }
+}
+```
 
 ### Get Pak from
 
-[https://github.com/embedthis/pak](https://github.com/embedthis/pak)
+[https://embedthis.com/pak/](https://embedthis.com/pak/download.html)
