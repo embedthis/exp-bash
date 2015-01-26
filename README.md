@@ -12,7 +12,7 @@ into HTML pages.
 
 ### To configure in expansive.json:
 
-* shell.input -- Array of shell file extensions to service.
+* shell.input &mdash; Array of shell file extensions to service.
 
 ```
 {
