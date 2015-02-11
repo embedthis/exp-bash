@@ -1,13 +1,19 @@
 {
     "name": "exp-shell",
-    "description": "Bash Plugin for Expansive",
+    "description": "Shell Plugin for Expansive",
     "version": "0.1.0",
-    "pak": ">=0.10",
     "keywords": [
         "expansive-plugin",
         "shell",
         "bash"
     ],
     "licenses": "GPL",
-    "install": false
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/embedthis/exp-shell.git"
+    },
+    "pak": {
+        "version": ">=0.10",
+        "install": false
+    }
 }
