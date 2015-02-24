@@ -1,8 +1,10 @@
 Expansive.load({
     transforms: {
         name:   'shell',
-        input:  [ 'bash', 'sh' ],
-        output: '*',
+        mappings: {
+            'bash', 
+            'sh'
+        },
         script: `
             function transform(contents, meta, service)
                 run(file.extension, contents)
