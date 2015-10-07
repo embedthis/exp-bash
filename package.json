@@ -11,5 +11,8 @@
     "repository": {
         "type": "git",
         "url": "git://github.com/embedthis/exp-shell.git"
+    },
+    "devDependencies": {
+        "expansive": ">=0.6.0"
     }
 }
