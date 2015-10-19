@@ -3,26 +3,11 @@ exp-shell
 
 Expansive plugin for shell scripts.
 
-Provides the 'shell' service to run shell scripts and capture the output 
-into HTML pages.
+Provides the 'shell' service to run documents as shell scripts and capture the output.
 
 ### To install:
 
     pak install shell
-
-### To configure in expansive.json:
-
-* shell.input &mdash; Array of shell file extensions to service.
-
-```
-{
-    services: {
-        shell: {
-            input: [ 'bash', 'sh' ],
-        }
-    }
-}
-```
 
 ### Get Pak from
 
