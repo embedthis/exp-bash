@@ -11,4 +11,4 @@ Provides the 'shell' service to run documents as shell scripts and capture the o
 
 ### Get Pak from
 
-[https://embedthis.com/pak/](https://embedthis.com/pak/)
+[https://www.embedthis.com/pak/](https://www.embedthis.com/pak/)
